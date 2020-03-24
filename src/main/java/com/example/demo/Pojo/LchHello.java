@@ -11,5 +11,8 @@ public class LchHello {
         return "helloword";
     }
 
-
+    @RequestMapping("hello5")
+    public String hello4(){
+        return "hellowordzjw";
+    }
 }
